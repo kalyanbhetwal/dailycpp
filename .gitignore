@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+#build files
+day1
+a.out
