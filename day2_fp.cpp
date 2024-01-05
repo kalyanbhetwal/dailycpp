@@ -1,5 +1,8 @@
 #include <iostream>
+#include <functional>
+
 typedef int(*PFIntegeroperations)(int, int);
+
 using namespace std;
 int add(int a, int b){
     return a + b;
@@ -12,7 +15,8 @@ int main(void){
 
     int  a = 5, b = 6;
     //int(*fp)(int, int); 
-    PFIntegeroperations fp;
+    //PFIntegeroperations fp;
+    std::function<int(int,int)> fp;
     fp = add;
     cout<< "add " << fp(a,b)<<'\n';
     cout << "multiply "<<multiply(a,b)<<'\n';
