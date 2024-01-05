@@ -10,6 +10,10 @@ int main(void){
     // int *px = new int[5000]; // not deleting the allocated memory 
     // g++ -g -fsanitize=address -std=c++17 day2_nullptr_pitfall.cpp 
 
+    //dangling reference
+
+    //double free
+
     return 0;
      //
 }
