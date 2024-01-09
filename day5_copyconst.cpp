@@ -41,10 +41,10 @@ class vector3{
 
 
 int main(void){
-    vector3 vec{1,2,36};
-    vector3 v ;
+    vector3 vec;
+    vector3 v;
     v = vec;
-    std::cout << v.x << "," << vec.x <<'\n'; 
+    std::cout << v.x[0] << "," << vec.x[0] <<'\n'; 
 
 }
 
