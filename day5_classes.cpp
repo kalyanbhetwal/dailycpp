@@ -16,8 +16,8 @@ class Student{
 };
  
 int main(void){
-     Student*n1 = new Student();
-     n1->m_name = "test";
-     n1->printName();
-     delete n1;
+     Student n1;
+     n1.m_name = "test";
+     n1.printName();
+    static Student n2;
 }
