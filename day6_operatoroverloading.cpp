@@ -47,6 +47,6 @@ int main(void){
     cout << result;
     if(myVec1 == myVec2){
             cout <<"Vectors are equal" <<std::endl;
-    }
+    }else{cout<<"they aren't";}
 
 }
